@@ -26,6 +26,26 @@
             "title": "Personal Details"
         }, 
         {
+            "location": "/skills/", 
+            "text": "Skills\n\n\nProgramming\n\n\n\n\nPHP\n\n\nPython\n\n\nPerl\n\n\nBash\n\n\nJavascript\n\n\n\n\nSetup/Management\n\n\n\n\nAWS\n\n\nJenkins\n\n\nRedmine\n\n\nAnsible\n\n\nPuppet\n\n\nELK", 
+            "title": "Skills"
+        }, 
+        {
+            "location": "/skills/#skills", 
+            "text": "", 
+            "title": "Skills"
+        }, 
+        {
+            "location": "/skills/#programming", 
+            "text": "PHP  Python  Perl  Bash  Javascript", 
+            "title": "Programming"
+        }, 
+        {
+            "location": "/skills/#setupmanagement", 
+            "text": "AWS  Jenkins  Redmine  Ansible  Puppet  ELK", 
+            "title": "Setup/Management"
+        }, 
+        {
             "location": "/about/", 
             "text": "Fugit armiferos quoque in nostra Aello tinguit\n\n\nTangi respicit thracius precor edendo\n\n\nLorem markdownum anima stupuit bipennem Erycis, retardat os orbem isto nec,\ndubiaque, autumni, et. Custos placidos in vocat, toto Pelates Cycnum ministeriis\nperque. Deo in taurum innixus minus, et mea, non est et mugitibus specie. Venus\nte loco sed et protinus hoc unde sepulti est.\n\n\nNec pedes, prendere reddere amans \nmonstrum\n testes dedisset modo mox est.\nDimovit perennis effervescere quem fecit requiescere vidit.\n\n\nInridet multaque Horamque et decus forent\n\n\nVocari pater, laterumque Peleus opus sua silentum adpositas nati retro inter\nprocul, flammas, pro. Consequitur mutasse simulat sanguine Lelegeides fertur\ndesine ante fossae fuit! Ictus edidicitque pedis atque suam molle disertus alia\nlatebris summa \nvos aquas\n? Excussae invitis novas inhospita dumque deduxisse\nluces dixerat gemmata dissipat nobis Eurystheus.\n\n\n\n\nHumum esse, dempto, ut volucris cetera, in ramo tempore. Vestri spoliis deum\nsui actis in lymphis \nultima stratosque\n corniger longoque, aetheriis\nquaesitis me ducit, Athis penetratque! Lacerum super senis Tusco; Iani \nper\n\naperto ignibus progenuit maternas tardius.\n\n\n\n\nRemoverat placet falsaque ad texta exercere Tenedon novissima sanguis domum\npoteras; Cadmi novi est; et. Fuit desertum! Est de sperat collabitur sed ore\n\nresolutum\n semper, absistit cursus dapibus fingi. Et excussit litore cumque\nveretur Athamanta memorant se virum vulnera rear, parientibus unda longum\nrepercusso. Paelice posses, virginis de habent nemo!\n\n\n\n\nNon et tinnulaque et pondus esset\n\n\nHabet videri cedentique Helicon vinclo arsit tot\n\n\nVelamina ardor penates monstris foedantem lucemque natalis\n\n\n\n\nMarmora telae, quis Iovis rami est supersint iusta. Suoque abiit: passis in cur\nmea propiora nimios hastae.", 
             "title": "About"
