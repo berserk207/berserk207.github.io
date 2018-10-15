@@ -46,6 +46,51 @@
             "title": "Setup/Management"
         }, 
         {
+            "location": "/projects/", 
+            "text": "Projects\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\n\n\nRole: Senior Developer\n\n\nTasks: \n\n\nWork with a junior developer to transfer/translate all functions\n\n\n\n\nMigration from Subversion to Git\n\n\nJenkins\n\n\nRedmine\n\n\nPuppet\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
+            "title": "Projects"
+        }, 
+        {
+            "location": "/projects/#projects", 
+            "text": "", 
+            "title": "Projects"
+        }, 
+        {
+            "location": "/projects/#migration-from-native-php-to-yii-framework-of-main-website", 
+            "text": "Role: Senior Developer  Tasks:   Work with a junior developer to transfer/translate all functions", 
+            "title": "Migration from native PHP to Yii Framework of Main Website"
+        }, 
+        {
+            "location": "/projects/#migration-from-subversion-to-git", 
+            "text": "", 
+            "title": "Migration from Subversion to Git"
+        }, 
+        {
+            "location": "/projects/#jenkins", 
+            "text": "", 
+            "title": "Jenkins"
+        }, 
+        {
+            "location": "/projects/#redmine", 
+            "text": "", 
+            "title": "Redmine"
+        }, 
+        {
+            "location": "/projects/#puppet", 
+            "text": "", 
+            "title": "Puppet"
+        }, 
+        {
+            "location": "/projects/#sakura-cloud-to-aws-migration", 
+            "text": "", 
+            "title": "Sakura Cloud to AWS Migration"
+        }, 
+        {
+            "location": "/projects/#ansible", 
+            "text": "", 
+            "title": "Ansible"
+        }, 
+        {
             "location": "/about/", 
             "text": "Fugit armiferos quoque in nostra Aello tinguit\n\n\nTangi respicit thracius precor edendo\n\n\nLorem markdownum anima stupuit bipennem Erycis, retardat os orbem isto nec,\ndubiaque, autumni, et. Custos placidos in vocat, toto Pelates Cycnum ministeriis\nperque. Deo in taurum innixus minus, et mea, non est et mugitibus specie. Venus\nte loco sed et protinus hoc unde sepulti est.\n\n\nNec pedes, prendere reddere amans \nmonstrum\n testes dedisset modo mox est.\nDimovit perennis effervescere quem fecit requiescere vidit.\n\n\nInridet multaque Horamque et decus forent\n\n\nVocari pater, laterumque Peleus opus sua silentum adpositas nati retro inter\nprocul, flammas, pro. Consequitur mutasse simulat sanguine Lelegeides fertur\ndesine ante fossae fuit! Ictus edidicitque pedis atque suam molle disertus alia\nlatebris summa \nvos aquas\n? Excussae invitis novas inhospita dumque deduxisse\nluces dixerat gemmata dissipat nobis Eurystheus.\n\n\n\n\nHumum esse, dempto, ut volucris cetera, in ramo tempore. Vestri spoliis deum\nsui actis in lymphis \nultima stratosque\n corniger longoque, aetheriis\nquaesitis me ducit, Athis penetratque! Lacerum super senis Tusco; Iani \nper\n\naperto ignibus progenuit maternas tardius.\n\n\n\n\nRemoverat placet falsaque ad texta exercere Tenedon novissima sanguis domum\npoteras; Cadmi novi est; et. Fuit desertum! Est de sperat collabitur sed ore\n\nresolutum\n semper, absistit cursus dapibus fingi. Et excussit litore cumque\nveretur Athamanta memorant se virum vulnera rear, parientibus unda longum\nrepercusso. Paelice posses, virginis de habent nemo!\n\n\n\n\nNon et tinnulaque et pondus esset\n\n\nHabet videri cedentique Helicon vinclo arsit tot\n\n\nVelamina ardor penates monstris foedantem lucemque natalis\n\n\n\n\nMarmora telae, quis Iovis rami est supersint iusta. Suoque abiit: passis in cur\nmea propiora nimios hastae.", 
             "title": "About"

@@ -2,5 +2,6 @@ site_name: Christian Clark Ian Gabo
 pages:
     - Home: index.md
     - Skills: skills.md
+    - Projects: projects.md
     - About: about.md
 theme: windmill
