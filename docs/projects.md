@@ -4,7 +4,7 @@
 
 **Role:** Senior Developer
 **Tasks:** 
-* Work with a junior developer to transfer/translate all functions
+* Work with a junior developer to transfer/translate all functions given the limited timeframe.
 
 ## Migration from Subversion to Git
 
