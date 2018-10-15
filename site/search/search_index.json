@@ -47,13 +47,23 @@
         }, 
         {
             "location": "/projects/", 
-            "text": "Projects\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nMigration from Subversion to Git\n\n\nJenkins\n\n\nRedmine\n\n\nPuppet\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
+            "text": "Project List\n\n\nTraining Scheduler\n\n\nScheduling Pages\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nDevelopment Environment\n\n\nRole:\n Sysad\n\n\nTasks:\n \n\n\n\n\nPrevious development environment just used XAMPP on Windows workstations while production used Centos VMs.\n\n\nCreated development environment using KVM and OpenVZ to closely replicate the production environment.\n\n\nInstructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.\n\n\n\n\nMigration from Subversion to Git\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nMigrate old SVN repositories to Git.\n\n\nHelp familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.\n\n\nUsed Git Flow (slightly modified) as the new development flow.\n\n\n\n\nUnit Testing\n\n\nRole:\n Developer\n\n\nTasks:\n\n\n\n\nInitiated the creation/usage of unit tests for the main website.\n\n\nCreated initial tests and also create guides/tips for other developers.\n\n\n\n\nCapistrano deployer\n\n\nJenkins\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\nIntegrated capistrano deployment so developers can take control of the deployment process.\n\n\n\n\nRedmine\n\n\nDevelopment environment using VMWare\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\n\n\nPuppet\n\n\nReadthedocs\n\n\nELK Stack\n\n\nJenkins Blue Ocean\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nUpdated Jenkins to newest version and then installed the Blue Ocean plugin.\n\n\nCreated the pipelines for the main projects.\n\n\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
             "title": "Projects"
         }, 
         {
-            "location": "/projects/#projects", 
+            "location": "/projects/#project-list", 
             "text": "", 
-            "title": "Projects"
+            "title": "Project List"
+        }, 
+        {
+            "location": "/projects/#training-scheduler", 
+            "text": "", 
+            "title": "Training Scheduler"
+        }, 
+        {
+            "location": "/projects/#scheduling-pages", 
+            "text": "", 
+            "title": "Scheduling Pages"
         }, 
         {
             "location": "/projects/#migration-from-native-php-to-yii-framework-of-main-website", 
@@ -61,13 +71,28 @@
             "title": "Migration from native PHP to Yii Framework of Main Website"
         }, 
         {
+            "location": "/projects/#development-environment", 
+            "text": "Role:  Sysad  Tasks:     Previous development environment just used XAMPP on Windows workstations while production used Centos VMs.  Created development environment using KVM and OpenVZ to closely replicate the production environment.  Instructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.", 
+            "title": "Development Environment"
+        }, 
+        {
             "location": "/projects/#migration-from-subversion-to-git", 
-            "text": "", 
+            "text": "Role:  Ops  Tasks:   Migrate old SVN repositories to Git.  Help familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.  Used Git Flow (slightly modified) as the new development flow.", 
             "title": "Migration from Subversion to Git"
         }, 
         {
-            "location": "/projects/#jenkins", 
+            "location": "/projects/#unit-testing", 
+            "text": "Role:  Developer  Tasks:   Initiated the creation/usage of unit tests for the main website.  Created initial tests and also create guides/tips for other developers.", 
+            "title": "Unit Testing"
+        }, 
+        {
+            "location": "/projects/#capistrano-deployer", 
             "text": "", 
+            "title": "Capistrano deployer"
+        }, 
+        {
+            "location": "/projects/#jenkins", 
+            "text": "Role:  Ops, Release Manager  Tasks:   Set-up Jenkins for running various tests so it will be part of the deployment process.  Integrated capistrano deployment so developers can take control of the deployment process.", 
             "title": "Jenkins"
         }, 
         {
@@ -76,9 +101,29 @@
             "title": "Redmine"
         }, 
         {
+            "location": "/projects/#development-environment-using-vmware", 
+            "text": "Role:  Ops, Release Manager  Tasks:   Set-up Jenkins for running various tests so it will be part of the deployment process.", 
+            "title": "Development environment using VMWare"
+        }, 
+        {
             "location": "/projects/#puppet", 
             "text": "", 
             "title": "Puppet"
+        }, 
+        {
+            "location": "/projects/#readthedocs", 
+            "text": "", 
+            "title": "Readthedocs"
+        }, 
+        {
+            "location": "/projects/#elk-stack", 
+            "text": "", 
+            "title": "ELK Stack"
+        }, 
+        {
+            "location": "/projects/#jenkins-blue-ocean", 
+            "text": "Role:  Ops  Tasks:   Updated Jenkins to newest version and then installed the Blue Ocean plugin.  Created the pipelines for the main projects.", 
+            "title": "Jenkins Blue Ocean"
         }, 
         {
             "location": "/projects/#sakura-cloud-to-aws-migration", 

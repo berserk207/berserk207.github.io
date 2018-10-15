@@ -32,12 +32,21 @@
       var is_top_frame = false;
         
         var pageToc = [
-          {title: "Projects", url: "#projects", children: [
+          {title: "Project List", url: "#project-list", children: [
+              {title: "Training Scheduler", url: "#training-scheduler" },
+              {title: "Scheduling Pages", url: "#scheduling-pages" },
               {title: "Migration from native PHP to Yii Framework of Main Website", url: "#migration-from-native-php-to-yii-framework-of-main-website" },
+              {title: "Development Environment", url: "#development-environment" },
               {title: "Migration from Subversion to Git", url: "#migration-from-subversion-to-git" },
+              {title: "Unit Testing", url: "#unit-testing" },
+              {title: "Capistrano deployer", url: "#capistrano-deployer" },
               {title: "Jenkins", url: "#jenkins" },
               {title: "Redmine", url: "#redmine" },
+              {title: "Development environment using VMWare", url: "#development-environment-using-vmware" },
               {title: "Puppet", url: "#puppet" },
+              {title: "Readthedocs", url: "#readthedocs" },
+              {title: "ELK Stack", url: "#elk-stack" },
+              {title: "Jenkins Blue Ocean", url: "#jenkins-blue-ocean" },
               {title: "Sakura Cloud to AWS Migration", url: "#sakura-cloud-to-aws-migration" },
               {title: "Ansible", url: "#ansible" },
           ]},
@@ -83,17 +92,63 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="projects">Projects</h1>
+    <h1 id="project-list">Project List</h1>
+<h2 id="training-scheduler">Training Scheduler</h2>
+<h2 id="scheduling-pages">Scheduling Pages</h2>
 <h2 id="migration-from-native-php-to-yii-framework-of-main-website">Migration from native PHP to Yii Framework of Main Website</h2>
 <p><strong>Role:</strong> Senior Developer</p>
 <p><strong>Tasks:</strong> </p>
 <ul>
 <li>Work with a junior developer to transfer/translate all functions given the limited timeframe.</li>
 </ul>
+<h2 id="development-environment">Development Environment</h2>
+<p><strong>Role:</strong> Sysad</p>
+<p><strong>Tasks:</strong> </p>
+<ul>
+<li>Previous development environment just used XAMPP on Windows workstations while production used Centos VMs.</li>
+<li>Created development environment using KVM and OpenVZ to closely replicate the production environment.</li>
+<li>Instructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.</li>
+</ul>
 <h2 id="migration-from-subversion-to-git">Migration from Subversion to Git</h2>
+<p><strong>Role:</strong> Ops</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Migrate old SVN repositories to Git.</li>
+<li>Help familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.</li>
+<li>Used Git Flow (slightly modified) as the new development flow.</li>
+</ul>
+<h2 id="unit-testing">Unit Testing</h2>
+<p><strong>Role:</strong> Developer</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Initiated the creation/usage of unit tests for the main website.</li>
+<li>Created initial tests and also create guides/tips for other developers.</li>
+</ul>
+<h2 id="capistrano-deployer">Capistrano deployer</h2>
 <h2 id="jenkins">Jenkins</h2>
+<p><strong>Role:</strong> Ops, Release Manager</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Set-up Jenkins for running various tests so it will be part of the deployment process.</li>
+<li>Integrated capistrano deployment so developers can take control of the deployment process.</li>
+</ul>
 <h2 id="redmine">Redmine</h2>
+<h2 id="development-environment-using-vmware">Development environment using VMWare</h2>
+<p><strong>Role:</strong> Ops, Release Manager</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Set-up Jenkins for running various tests so it will be part of the deployment process.</li>
+</ul>
 <h2 id="puppet">Puppet</h2>
+<h2 id="readthedocs">Readthedocs</h2>
+<h2 id="elk-stack">ELK Stack</h2>
+<h2 id="jenkins-blue-ocean">Jenkins Blue Ocean</h2>
+<p><strong>Role:</strong> Ops</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Updated Jenkins to newest version and then installed the Blue Ocean plugin.</li>
+<li>Created the pipelines for the main projects.</li>
+</ul>
 <h2 id="sakura-cloud-to-aws-migration">Sakura Cloud to AWS Migration</h2>
 <h2 id="ansible">Ansible</h2>
 
