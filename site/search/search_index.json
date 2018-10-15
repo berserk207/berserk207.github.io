@@ -47,7 +47,7 @@
         }, 
         {
             "location": "/projects/", 
-            "text": "Project List\n\n\nTraining Scheduler\n\n\nScheduling Pages\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nDevelopment Environment\n\n\nRole:\n Sysad\n\n\nTasks:\n \n\n\n\n\nPrevious development environment just used XAMPP on Windows workstations while production used Centos VMs.\n\n\nCreated development environment using KVM and OpenVZ to closely replicate the production environment.\n\n\nInstructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.\n\n\n\n\nMigration from Subversion to Git\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nMigrate old SVN repositories to Git.\n\n\nHelp familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.\n\n\nUsed Git Flow (slightly modified) as the new development flow.\n\n\n\n\nUnit Testing\n\n\nRole:\n Developer\n\n\nTasks:\n\n\n\n\nInitiated the creation/usage of unit tests for the main website.\n\n\nCreated initial tests and also create guides/tips for other developers.\n\n\n\n\nCapistrano deployer\n\n\nJenkins\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\nIntegrated capistrano deployment so developers can take control of the deployment process.\n\n\n\n\nRedmine\n\n\nDevelopment environment using VMWare\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\n\n\nPuppet\n\n\nReadthedocs\n\n\nELK Stack\n\n\nJenkins Blue Ocean\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nUpdated Jenkins to newest version and then installed the Blue Ocean plugin.\n\n\nCreated the pipelines for the main projects.\n\n\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
+            "text": "Project List\n\n\nTraining Scheduler\n\n\nScheduling Pages\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nDevelopment Environment\n\n\nRole:\n Sysad\n\n\nTasks:\n \n\n\n\n\nPrevious development environment just used XAMPP on Windows workstations while production used Centos VMs.\n\n\nCreated development environment using KVM and OpenVZ to closely replicate the production environment.\n\n\nInstructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.\n\n\n\n\nMigration from Subversion to Git\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nMigrate old SVN repositories to Git.\n\n\nHelp familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.\n\n\nUsed Git Flow (slightly modified) as the new development flow.\n\n\n\n\nUnit Testing\n\n\nRole:\n Developer\n\n\nTasks:\n\n\n\n\nInitiated the creation/usage of unit tests for the main website.\n\n\nCreated initial tests and also created guides/tips for other developers.\n\n\nTaught other developers on how to create tests and how make testable code.\n\n\n\n\nCapistrano deployer\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nCreate recipes for new systems and modify existing recipes to enable new features.\n\n\nCreated recipes that use git as the source.\n\n\n\n\nJenkins\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\nIntegrated capistrano deployment so developers can take control of the deployment process.\n\n\n\n\nRedmine\n\n\nDevelopment environment using VMWare\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\n\n\nPercona + Syncthing for local development database\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nUsed Percona Xtrabackup to make faster and more efficient backup of the large database for use in the development environment.\n\n\nUsed Syncthing to enable faster (P2P) transfer of DB data to multiple development DB VMs.\n\n\nJP Side adopted this method later for use in the Production environment.\n\n\n\n\nPuppet\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up puppet to manage the main website development VMs.\n\n\nIt is ideal for this purpose since we don't want the devs to make permanent configuration modifications to the dev VMs, in order to prevent cross-environment errors. \n\n\n\n\nReadthedocs\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up readthedocs in the office network to host docs/guides by the IT/System Departments\n\n\nTaught the users on how to create and deploy documents to the system\n\n\n\n\nELK Stack\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up ELK in office network to monitor network traffic and usage.\n\n\nHelped set up ELK in AWS to monitor access logs from the main company websites.\n\n\nCreated new metrics/graphs based on the currently available data.\n\n\n\n\nJenkins Blue Ocean\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nUpdated Jenkins to newest version and then installed the Blue Ocean plugin.\n\n\nCreated new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)\n\n\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nCreated ansible configurations to provision the PH-side websites during AWS migration and also for new projects.\n\n\nRan the scripts for both the Staging and Production environments.\n\n\n\n\nDocker\n\n\nKubernetes", 
             "title": "Projects"
         }, 
         {
@@ -82,12 +82,12 @@
         }, 
         {
             "location": "/projects/#unit-testing", 
-            "text": "Role:  Developer  Tasks:   Initiated the creation/usage of unit tests for the main website.  Created initial tests and also create guides/tips for other developers.", 
+            "text": "Role:  Developer  Tasks:   Initiated the creation/usage of unit tests for the main website.  Created initial tests and also created guides/tips for other developers.  Taught other developers on how to create tests and how make testable code.", 
             "title": "Unit Testing"
         }, 
         {
             "location": "/projects/#capistrano-deployer", 
-            "text": "", 
+            "text": "Role:  Ops  Tasks:   Create recipes for new systems and modify existing recipes to enable new features.  Created recipes that use git as the source.", 
             "title": "Capistrano deployer"
         }, 
         {
@@ -106,23 +106,28 @@
             "title": "Development environment using VMWare"
         }, 
         {
+            "location": "/projects/#percona-syncthing-for-local-development-database", 
+            "text": "Role:  Sysad  Tasks:   Used Percona Xtrabackup to make faster and more efficient backup of the large database for use in the development environment.  Used Syncthing to enable faster (P2P) transfer of DB data to multiple development DB VMs.  JP Side adopted this method later for use in the Production environment.", 
+            "title": "Percona + Syncthing for local development database"
+        }, 
+        {
             "location": "/projects/#puppet", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Set up puppet to manage the main website development VMs.  It is ideal for this purpose since we don't want the devs to make permanent configuration modifications to the dev VMs, in order to prevent cross-environment errors.", 
             "title": "Puppet"
         }, 
         {
             "location": "/projects/#readthedocs", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Set up readthedocs in the office network to host docs/guides by the IT/System Departments  Taught the users on how to create and deploy documents to the system", 
             "title": "Readthedocs"
         }, 
         {
             "location": "/projects/#elk-stack", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Set up ELK in office network to monitor network traffic and usage.  Helped set up ELK in AWS to monitor access logs from the main company websites.  Created new metrics/graphs based on the currently available data.", 
             "title": "ELK Stack"
         }, 
         {
             "location": "/projects/#jenkins-blue-ocean", 
-            "text": "Role:  Ops  Tasks:   Updated Jenkins to newest version and then installed the Blue Ocean plugin.  Created the pipelines for the main projects.", 
+            "text": "Role:  Ops  Tasks:   Updated Jenkins to newest version and then installed the Blue Ocean plugin.  Created new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)", 
             "title": "Jenkins Blue Ocean"
         }, 
         {
@@ -132,8 +137,18 @@
         }, 
         {
             "location": "/projects/#ansible", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Created ansible configurations to provision the PH-side websites during AWS migration and also for new projects.  Ran the scripts for both the Staging and Production environments.", 
             "title": "Ansible"
+        }, 
+        {
+            "location": "/projects/#docker", 
+            "text": "", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/projects/#kubernetes", 
+            "text": "", 
+            "title": "Kubernetes"
         }, 
         {
             "location": "/about/", 

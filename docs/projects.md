@@ -39,9 +39,17 @@
 **Tasks:**
 
 * Initiated the creation/usage of unit tests for the main website.
-* Created initial tests and also create guides/tips for other developers.
+* Created initial tests and also created guides/tips for other developers.
+* Taught other developers on how to create tests and how make testable code.
 
 ## Capistrano deployer
+
+**Role:** Ops
+
+**Tasks:**
+
+* Create recipes for new systems and modify existing recipes to enable new features.
+* Created recipes that use git as the source.
 
 ## Jenkins
 
@@ -62,12 +70,43 @@
 
 * Set-up Jenkins for running various tests so it will be part of the deployment process.
 
+## Percona + Syncthing for local development database
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Used Percona Xtrabackup to make faster and more efficient backup of the large database for use in the development environment.
+* Used Syncthing to enable faster (P2P) transfer of DB data to multiple development DB VMs.
+* JP Side adopted this method later for use in the Production environment.
 
 ## Puppet
 
+**Role:** Sysad
+
+**Tasks:**
+
+* Set up puppet to manage the main website development VMs.
+* It is ideal for this purpose since we don't want the devs to make permanent configuration modifications to the dev VMs, in order to prevent cross-environment errors. 
+
 ## Readthedocs
 
+**Role:** Sysad
+
+**Tasks:**
+
+* Set up readthedocs in the office network to host docs/guides by the IT/System Departments
+* Taught the users on how to create and deploy documents to the system
+
 ## ELK Stack
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Set up ELK in office network to monitor network traffic and usage.
+* Helped set up ELK in AWS to monitor access logs from the main company websites.
+* Created new metrics/graphs based on the currently available data.
 
 ## Jenkins Blue Ocean
 
@@ -76,9 +115,20 @@
 **Tasks:**
 
 * Updated Jenkins to newest version and then installed the Blue Ocean plugin.
-* Created the pipelines for the main projects.
+* Created new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)
 
 ## Sakura Cloud to AWS Migration
 
 ## Ansible
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Created ansible configurations to provision the PH-side websites during AWS migration and also for new projects.
+* Ran the scripts for both the Staging and Production environments.
+
+## Docker
+
+## Kubernetes
 
