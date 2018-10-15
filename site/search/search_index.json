@@ -47,7 +47,7 @@
         }, 
         {
             "location": "/projects/", 
-            "text": "Projects\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\nTasks:\n \n* Work with a junior developer to transfer/translate all functions\n\n\nMigration from Subversion to Git\n\n\nJenkins\n\n\nRedmine\n\n\nPuppet\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
+            "text": "Projects\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\nTasks:\n \n* Work with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\nMigration from Subversion to Git\n\n\nJenkins\n\n\nRedmine\n\n\nPuppet\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible", 
             "title": "Projects"
         }, 
         {
@@ -57,7 +57,7 @@
         }, 
         {
             "location": "/projects/#migration-from-native-php-to-yii-framework-of-main-website", 
-            "text": "Role:  Senior Developer Tasks:  \n* Work with a junior developer to transfer/translate all functions", 
+            "text": "Role:  Senior Developer Tasks:  \n* Work with a junior developer to transfer/translate all functions given the limited timeframe.", 
             "title": "Migration from native PHP to Yii Framework of Main Website"
         }, 
         {
