@@ -2,7 +2,20 @@
 
 ## Training Scheduler
 
+**Role:** Developer
+
+**Tasks:** 
+
+* Enables the staff to manage the application of tutors.
+* Includes scheduling function as the name denotes, and enables the applicants to proceed to the next step of application.
+
 ## Scheduling Pages
+
+**Role:** Developer
+
+**Tasks:** 
+
+* Created new interactive systems that enable tutors to manage their schedules, which is considered one of the most critical functions for the main company website.
 
 ## Migration from native PHP to Yii Framework of Main Website
 
