@@ -81,7 +81,8 @@
 
 **Tasks:**
 
-* Set-up Jenkins for running various tests so it will be part of the deployment process.
+* Set-up Redmine to be used for project and issue management by the developers and IT Support.
+* Also set up separate redmine to be used by other departments that are tasked in supporting tutor concerns.
 
 ## Percona + Syncthing for local development database
 
@@ -110,6 +111,15 @@
 
 * Set up readthedocs in the office network to host docs/guides by the IT/System Departments
 * Taught the users on how to create and deploy documents to the system
+
+## Tutor Inbox
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Worked with developer to set up a new system that is using an entirely different tech stack (Python, Flask, NodeJS, MongoDB, redis) from the currently existing ones.
+* For this project, I set up the production settings or production management tools for those techs.
 
 ## ELK Stack
 
@@ -143,5 +153,18 @@
 
 ## Docker
 
+**Role:** Sysad
+
+**Tasks:**
+
+* Created docker server for development with Amazon AMI containers, since new prod environment is already using Amazon AMI, and there are no AMI ISO.
+
 ## Kubernetes
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Created kubernetes presentation with working demo of a production-grade kubernetes cluster in AWS. 
+* The cluster was set up using KOPS and the created services can be accessed via a public domain/subdomain.
 

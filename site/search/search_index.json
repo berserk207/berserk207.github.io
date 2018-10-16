@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/skills/", 
-            "text": "Skills\n\n\nProgramming\n\n\n\n\nPHP\n\n\nPython\n\n\nPerl\n\n\nBash\n\n\nJavascript\n\n\n\n\nSetup/Management\n\n\n\n\nAWS\n\n\nJenkins\n\n\nRedmine\n\n\nAnsible\n\n\nPuppet\n\n\nELK", 
+            "text": "Skills\n\n\nProgramming\n\n\n\n\nPHP\n\n\nPython\n\n\nPerl\n\n\nBash\n\n\nJavascript\n\n\nJQuery\n\n\n\n\nSetup/Management\n\n\n\n\nAWS\n\n\nSakura Cloud\n\n\nJenkins\n\n\nRedmine\n\n\nAnsible\n\n\nPuppet\n\n\nELK\n\n\nLocust\n\n\nSyncthing\n\n\nPercona\n\n\nKVM\n\n\nOpenVZ\n\n\nMongoDB\n\n\nDocker\n\n\nKubernetes", 
             "title": "Skills"
         }, 
         {
@@ -37,17 +37,17 @@
         }, 
         {
             "location": "/skills/#programming", 
-            "text": "PHP  Python  Perl  Bash  Javascript", 
+            "text": "PHP  Python  Perl  Bash  Javascript  JQuery", 
             "title": "Programming"
         }, 
         {
             "location": "/skills/#setupmanagement", 
-            "text": "AWS  Jenkins  Redmine  Ansible  Puppet  ELK", 
+            "text": "AWS  Sakura Cloud  Jenkins  Redmine  Ansible  Puppet  ELK  Locust  Syncthing  Percona  KVM  OpenVZ  MongoDB  Docker  Kubernetes", 
             "title": "Setup/Management"
         }, 
         {
             "location": "/projects/", 
-            "text": "Project List\n\n\nTraining Scheduler\n\n\nRole:\n Developer\n\n\nTasks:\n \n\n\n\n\nEnables the staff to manage the application of tutors.\n\n\nIncludes scheduling function as the name denotes, and enables the applicants to proceed to the next step of application.\n\n\n\n\nScheduling Pages\n\n\nRole:\n Developer\n\n\nTasks:\n \n\n\n\n\nCreated new interactive systems that enable tutors to manage their schedules, which is considered one of the most critical functions for the main company website.\n\n\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nDevelopment Environment\n\n\nRole:\n Sysad\n\n\nTasks:\n \n\n\n\n\nPrevious development environment just used XAMPP on Windows workstations while production used Centos VMs.\n\n\nCreated development environment using KVM and OpenVZ to closely replicate the production environment.\n\n\nInstructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.\n\n\n\n\nMigration from Subversion to Git\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nMigrate old SVN repositories to Git.\n\n\nHelp familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.\n\n\nUsed Git Flow (slightly modified) as the new development flow.\n\n\n\n\nUnit Testing\n\n\nRole:\n Developer\n\n\nTasks:\n\n\n\n\nInitiated the creation/usage of unit tests for the main website.\n\n\nCreated initial tests and also created guides/tips for other developers.\n\n\nTaught other developers on how to create tests and how make testable code.\n\n\n\n\nCapistrano deployer\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nCreate recipes for new systems and modify existing recipes to enable new features.\n\n\nCreated recipes that use git as the source.\n\n\n\n\nJenkins\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\nIntegrated capistrano deployment so developers can take control of the deployment process.\n\n\n\n\nRedmine\n\n\nDevelopment environment using VMWare\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\n\n\nPercona + Syncthing for local development database\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nUsed Percona Xtrabackup to make faster and more efficient backup of the large database for use in the development environment.\n\n\nUsed Syncthing to enable faster (P2P) transfer of DB data to multiple development DB VMs.\n\n\nJP Side adopted this method later for use in the Production environment.\n\n\n\n\nPuppet\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up puppet to manage the main website development VMs.\n\n\nIt is ideal for this purpose since we don't want the devs to make permanent configuration modifications to the dev VMs, in order to prevent cross-environment errors. \n\n\n\n\nReadthedocs\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up readthedocs in the office network to host docs/guides by the IT/System Departments\n\n\nTaught the users on how to create and deploy documents to the system\n\n\n\n\nELK Stack\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up ELK in office network to monitor network traffic and usage.\n\n\nHelped set up ELK in AWS to monitor access logs from the main company websites.\n\n\nCreated new metrics/graphs based on the currently available data.\n\n\n\n\nJenkins Blue Ocean\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nUpdated Jenkins to newest version and then installed the Blue Ocean plugin.\n\n\nCreated new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)\n\n\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nCreated ansible configurations to provision the PH-side websites during AWS migration and also for new projects.\n\n\nRan the scripts for both the Staging and Production environments.\n\n\n\n\nDocker\n\n\nKubernetes", 
+            "text": "Project List\n\n\nTraining Scheduler\n\n\nRole:\n Developer\n\n\nTasks:\n \n\n\n\n\nEnables the staff to manage the application of tutors.\n\n\nIncludes scheduling function as the name denotes, and enables the applicants to proceed to the next step of application.\n\n\n\n\nScheduling Pages\n\n\nRole:\n Developer\n\n\nTasks:\n \n\n\n\n\nCreated new interactive systems that enable tutors to manage their schedules, which is considered one of the most critical functions for the main company website.\n\n\n\n\nMigration from native PHP to Yii Framework of Main Website\n\n\nRole:\n Senior Developer\n\n\nTasks:\n \n\n\n\n\nWork with a junior developer to transfer/translate all functions given the limited timeframe.\n\n\n\n\nDevelopment Environment\n\n\nRole:\n Sysad\n\n\nTasks:\n \n\n\n\n\nPrevious development environment just used XAMPP on Windows workstations while production used Centos VMs.\n\n\nCreated development environment using KVM and OpenVZ to closely replicate the production environment.\n\n\nInstructed the users on how to use the new environment as the new main dev environment to help lessen cross-environment errors.\n\n\n\n\nMigration from Subversion to Git\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nMigrate old SVN repositories to Git.\n\n\nHelp familiarize users in using Git to maximize its features like powerful branching. It is quite difficult to visualize branching especially when migrating from SVN where we never used the merging feature.\n\n\nUsed Git Flow (slightly modified) as the new development flow.\n\n\n\n\nUnit Testing\n\n\nRole:\n Developer\n\n\nTasks:\n\n\n\n\nInitiated the creation/usage of unit tests for the main website.\n\n\nCreated initial tests and also created guides/tips for other developers.\n\n\nTaught other developers on how to create tests and how make testable code.\n\n\n\n\nCapistrano deployer\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nCreate recipes for new systems and modify existing recipes to enable new features.\n\n\nCreated recipes that use git as the source.\n\n\n\n\nJenkins\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Jenkins for running various tests so it will be part of the deployment process.\n\n\nIntegrated capistrano deployment so developers can take control of the deployment process.\n\n\n\n\nRedmine\n\n\nDevelopment environment using VMWare\n\n\nRole:\n Ops, Release Manager\n\n\nTasks:\n\n\n\n\nSet-up Redmine to be used for project and issue management by the developers and IT Support.\n\n\nAlso set up separate redmine to be used by other departments that are tasked in supporting tutor concerns.\n\n\n\n\nPercona + Syncthing for local development database\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nUsed Percona Xtrabackup to make faster and more efficient backup of the large database for use in the development environment.\n\n\nUsed Syncthing to enable faster (P2P) transfer of DB data to multiple development DB VMs.\n\n\nJP Side adopted this method later for use in the Production environment.\n\n\n\n\nPuppet\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up puppet to manage the main website development VMs.\n\n\nIt is ideal for this purpose since we don't want the devs to make permanent configuration modifications to the dev VMs, in order to prevent cross-environment errors. \n\n\n\n\nReadthedocs\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up readthedocs in the office network to host docs/guides by the IT/System Departments\n\n\nTaught the users on how to create and deploy documents to the system\n\n\n\n\nTutor Inbox\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nWorked with developer to set up a new system that is using an entirely different tech stack (Python, Flask, NodeJS, MongoDB, redis) from the currently existing ones.\n\n\nFor this project, I set up the production settings or production management tools for those techs.\n\n\n\n\nELK Stack\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nSet up ELK in office network to monitor network traffic and usage.\n\n\nHelped set up ELK in AWS to monitor access logs from the main company websites.\n\n\nCreated new metrics/graphs based on the currently available data.\n\n\n\n\nJenkins Blue Ocean\n\n\nRole:\n Ops\n\n\nTasks:\n\n\n\n\nUpdated Jenkins to newest version and then installed the Blue Ocean plugin.\n\n\nCreated new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)\n\n\n\n\nSakura Cloud to AWS Migration\n\n\nAnsible\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nCreated ansible configurations to provision the PH-side websites during AWS migration and also for new projects.\n\n\nRan the scripts for both the Staging and Production environments.\n\n\n\n\nDocker\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nCreated docker server for development with Amazon AMI containers, since new prod environment is already using Amazon AMI, and there are no AMI ISO.\n\n\n\n\nKubernetes\n\n\nRole:\n Sysad\n\n\nTasks:\n\n\n\n\nCreated kubernetes presentation with working demo of a production-grade kubernetes cluster in AWS. \n\n\nThe cluster was set up using KOPS and the created services can be accessed via a public domain/subdomain.", 
             "title": "Projects"
         }, 
         {
@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/projects/#development-environment-using-vmware", 
-            "text": "Role:  Ops, Release Manager  Tasks:   Set-up Jenkins for running various tests so it will be part of the deployment process.", 
+            "text": "Role:  Ops, Release Manager  Tasks:   Set-up Redmine to be used for project and issue management by the developers and IT Support.  Also set up separate redmine to be used by other departments that are tasked in supporting tutor concerns.", 
             "title": "Development environment using VMWare"
         }, 
         {
@@ -119,6 +119,11 @@
             "location": "/projects/#readthedocs", 
             "text": "Role:  Sysad  Tasks:   Set up readthedocs in the office network to host docs/guides by the IT/System Departments  Taught the users on how to create and deploy documents to the system", 
             "title": "Readthedocs"
+        }, 
+        {
+            "location": "/projects/#tutor-inbox", 
+            "text": "Role:  Sysad  Tasks:   Worked with developer to set up a new system that is using an entirely different tech stack (Python, Flask, NodeJS, MongoDB, redis) from the currently existing ones.  For this project, I set up the production settings or production management tools for those techs.", 
+            "title": "Tutor Inbox"
         }, 
         {
             "location": "/projects/#elk-stack", 
@@ -142,12 +147,12 @@
         }, 
         {
             "location": "/projects/#docker", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Created docker server for development with Amazon AMI containers, since new prod environment is already using Amazon AMI, and there are no AMI ISO.", 
             "title": "Docker"
         }, 
         {
             "location": "/projects/#kubernetes", 
-            "text": "", 
+            "text": "Role:  Sysad  Tasks:   Created kubernetes presentation with working demo of a production-grade kubernetes cluster in AWS.   The cluster was set up using KOPS and the created services can be accessed via a public domain/subdomain.", 
             "title": "Kubernetes"
         }, 
         {
