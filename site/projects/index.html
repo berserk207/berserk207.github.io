@@ -41,8 +41,8 @@
               {title: "Unit Testing", url: "#unit-testing" },
               {title: "Capistrano deployer", url: "#capistrano-deployer" },
               {title: "Jenkins", url: "#jenkins" },
-              {title: "Redmine", url: "#redmine" },
               {title: "Development environment using VMWare", url: "#development-environment-using-vmware" },
+              {title: "Redmine", url: "#redmine" },
               {title: "Percona + Syncthing for local development database", url: "#percona-syncthing-for-local-development-database" },
               {title: "Puppet", url: "#puppet" },
               {title: "Readthedocs", url: "#readthedocs" },
@@ -154,8 +154,14 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Set-up Jenkins for running various tests so it will be part of the deployment process.</li>
 <li>Integrated capistrano deployment so developers can take control of the deployment process.</li>
 </ul>
-<h2 id="redmine">Redmine</h2>
 <h2 id="development-environment-using-vmware">Development environment using VMWare</h2>
+<p><strong>Role:</strong> Sysad</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Installed VMWare ESXi on a bare-metal HP server to be used as a development environment.</li>
+<li>Used puppet server to setup and maintain the individual VMs.</li>
+</ul>
+<h2 id="redmine">Redmine</h2>
 <p><strong>Role:</strong> Ops, Release Manager</p>
 <p><strong>Tasks:</strong></p>
 <ul>
@@ -207,6 +213,13 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <li>Created new pipelines for the main projects. (Build, Test, Merge, Approval, Deploy, Notifications)</li>
 </ul>
 <h2 id="sakura-cloud-to-aws-migration">Sakura Cloud to AWS Migration</h2>
+<p><strong>Role:</strong> Sysad</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>Created ansible recipes to replicate the setup of the currently existing servers.</li>
+<li>Set up the website/servers until everything is working as expected.</li>
+<li>Supported the development team in checking if all the functions of the websites are still working properly.</li>
+</ul>
 <h2 id="ansible">Ansible</h2>
 <p><strong>Role:</strong> Sysad</p>
 <p><strong>Tasks:</strong></p>
@@ -226,6 +239,7 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 <ul>
 <li>Created kubernetes presentation with working demo of a production-grade kubernetes cluster in AWS. </li>
 <li>The cluster was set up using KOPS and the created services can be accessed via a public domain/subdomain.</li>
+<li>Created on-premise kubernetes cluster using Rancher to act as a development environment.</li>
 </ul>
 
   <br>
