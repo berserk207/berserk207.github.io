@@ -1,19 +1,16 @@
-# Welcome to my Site
 
 ## About Me
 
-* Me 1
-* Me 2
-* Me 3
+* Graduated from University of the Philippines-Diliman
+* Has 5 years experience in web development and around 5 years experience in System Administration/Ops
 
 ## Strengths
 
-* Strength 1
-* Strength 2
-* Strength 3
+* Fast learner and enjoys learning and implementing new technologies
+* Always thinks of problems as challenges to be overcome; does not give up until a solution is found
+* Good and dependable team player
 
 ## Personal Details
 
-* Detail 1
-* Detail 2
-* Detail 3
+* Name: Christian Clark Ian Gabo
+* Contact Information: [email] clark56@gmail.com, [mobile] 0917-589-0774

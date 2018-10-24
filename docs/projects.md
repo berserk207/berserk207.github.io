@@ -73,9 +73,16 @@
 * Set-up Jenkins for running various tests so it will be part of the deployment process.
 * Integrated capistrano deployment so developers can take control of the deployment process.
 
-## Redmine
-
 ## Development environment using VMWare
+
+**Role:** Sysad
+
+**Tasks:**
+
+* Installed VMWare ESXi on a bare-metal HP server to be used as a development environment.
+* Used puppet server to setup and maintain the individual VMs.
+
+## Redmine
 
 **Role:** Ops, Release Manager
 
@@ -142,6 +149,14 @@
 
 ## Sakura Cloud to AWS Migration
 
+**Role:** Sysad
+
+**Tasks:**
+
+* Created ansible recipes to replicate the setup of the currently existing servers.
+* Set up the website/servers until everything is working as expected.
+* Supported the development team in checking if all the functions of the websites are still working properly.
+
 ## Ansible
 
 **Role:** Sysad
@@ -167,4 +182,5 @@
 
 * Created kubernetes presentation with working demo of a production-grade kubernetes cluster in AWS. 
 * The cluster was set up using KOPS and the created services can be accessed via a public domain/subdomain.
+* Created on-premise kubernetes cluster using Rancher to act as a development environment.
 
